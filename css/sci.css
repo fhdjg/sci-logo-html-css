@@ -1,0 +1,79 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  font-family: 'Arial'; }
+
+.sci {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+  .sci .lingkaran1, .sci .lingkaran2, .sci .lingkaran3 {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px; }
+  .sci .lingkaran1 {
+    border: 15px solid #66962ee3; }
+  .sci .lingkaran2 {
+    border: 15px solid #09840da1;
+    position: absolute;
+    margin-left: 12px; }
+  .sci .lingkaran3 {
+    border: 15px solid #479e4bde;
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 7px; }
+  .sci .lingkaran4 {
+    border-radius: 100%;
+    height: 278px;
+    width: 278px;
+    position: absolute;
+    border: 9px solid #f7e548;
+    margin: 2px 0px 0px 7px;
+    background: #fff;
+    overflow: hidden; }
+    .sci .lingkaran4 span {
+      background: #fff; }
+  .sci .sci-text {
+    position: absolute;
+    z-index: 1;
+    font-size: 153px;
+    font-weight: bold;
+    filter: drop-shadow(1px -2px 0px #fff);
+    -webkit-filter: drop-shadow(1px -2px 0px #fff); }
+  .sci .sci-text2 {
+    position: absolute;
+    margin-top: 72px;
+    filter: drop-shadow(1px 1px 0px #fff);
+    -webkit-filter: drop-shadow(1px 1px 0px #fff);
+    font-weight: bold;
+    z-index: 1; }
+  .sci .sci-peta {
+    position: absolute; }
+
+.noCl {
+  background: transparent !important; }
+
+.table tr td {
+  height: 3px;
+  width: 3px;
+  background: #4caf50; }
+
+/* 
+.sci{
+	-webkit-animation: logo_animation 3s ease-in;
+	animation: logo_animation 3s ease-in;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes logo_animation {
+    from {
+	  -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+	  -webkit-filter: hue-rotate(360deg);
+    }
+} */
+
+/*# sourceMappingURL=sci.css.map */
