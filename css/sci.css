@@ -14,13 +14,13 @@ html, body {
     height: 300px;
     width: 300px; }
   .sci .lingkaran1 {
-    border: 15px solid #66962ee3; }
+    border: 15px solid rgba(102, 150, 46, 0.89); }
   .sci .lingkaran2 {
-    border: 15px solid #09840da1;
+    border: 15px solid rgba(9, 132, 13, 0.63);
     position: absolute;
     margin-left: 12px; }
   .sci .lingkaran3 {
-    border: 15px solid #479e4bde;
+    border: 15px solid rgba(71, 158, 75, 0.87);
     position: absolute;
     margin-left: 7px;
     margin-top: 7px; }
